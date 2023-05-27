@@ -23,3 +23,13 @@ To use the Caesar Cipher, follow these steps:
   ```
   - **ciphertext:** The text you want to decrypt.
   - **shift:** The number of positions the letters were shifted during encryption. Make sure to use the same shift value used during encryption.
+
+# Contribution
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on GitHub.
+
+# License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+# Acknowledgments
+- The calculator app is built using the Python programming language.
+- The project structure and code organization are inspired by best practices for Python projects.
