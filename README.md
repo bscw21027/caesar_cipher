@@ -33,3 +33,6 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 # Acknowledgments
 - The calculator app is built using the Python programming language.
 - The project structure and code organization are inspired by best practices for Python projects.
+
+# Contact
+If you have any questions, suggestions, or issues, please feel free to contact the project maintainer at bscw@itu.edu.pk
