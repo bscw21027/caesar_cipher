@@ -1,11 +1,26 @@
-# caesar_cipher
+# Caesar Cipher in Python
+This is a simple implementation of the Caesar Cipher encryption algorithm in Python. The Caesar Cipher, also known as the shift cipher, is one of the earliest and simplest encryption techniques. It works by shifting each letter in the plaintext by a certain number of positions down the alphabet.
 
-The Caesar cipher is a simple encryption technique that involves shifting each letter in a given text by a certain number of positions down the alphabet. It is named after Julius Caesar, who is believed to have used this method to protect his confidential messages.
+# Usage
+To use the Caesar Cipher, follow these steps:
 
-To implement the Caesar cipher in Python, one can start by defining a function that takes a plaintext message and a shift value as inputs. The shift value determines the number of positions each letter will be shifted. For example, a shift value of 3 would shift 'A' to 'D', 'B' to 'E', and so on.
+- Clone the repository or download the caesar_cipher.py file.
 
-To decrypt the ciphertext, the process is similar but with the shift value in reverse. You can subtract the shift value from the ASCII value of each letter and handle wraparound if necessary.
+- Import the caesar_cipher module into your Python script:
+  ```python
+   from caesar_cipher import caesar_encrypt, caesar_decrypt
+  ```
+ - **Encryption:** To encrypt a plaintext, use the caesar_encrypt function:
+  ```python
+  ciphertext = caesar_encrypt(plaintext, shift)
+  ```
+  plaintext: The text you want to encrypt.
+  shift: The number of positions to shift each letter. A positive value for shifting to the right, and a negative value for shifting to the left.
+  Decryption:
 
-To enhance the functionality of the Caesar cipher, you can add support for preserving case sensitivity, ignoring non-alphabetic characters, and allowing the user to specify the shift value interactively. You can also implement functions to encrypt and decrypt entire files or longer messages.
-
-Overall, the Caesar cipher implementation in Python provides a basic understanding of encryption techniques and serves as a foundation for exploring more advanced encryption algorithms.
+ - **Decryption:** To decrypt a ciphertext, use the caesar_decrypt function:
+ ```python
+ plaintext = caesar_decrypt(ciphertext, shift)
+ ```
+ ciphertext: The text you want to decrypt.
+ shift: The number of positions the letters were shifted during encryption. Make sure to use the same shift value used during encryption.
