@@ -8,7 +8,7 @@ To use the Caesar Cipher, follow these steps:
 
 - Import the caesar_cipher module into your Python script:
   ```python
-   from caesar_cipher import caesar_encrypt, caesar_decrypt
+   from caesar_cipher import encrypt, decrypt
   ```
 - **Encryption:** To encrypt a plaintext, use the caesar_encrypt function:
   ```python
