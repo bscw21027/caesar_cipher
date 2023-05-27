@@ -10,17 +10,16 @@ To use the Caesar Cipher, follow these steps:
   ```python
    from caesar_cipher import caesar_encrypt, caesar_decrypt
   ```
- - **Encryption:** To encrypt a plaintext, use the caesar_encrypt function:
+- **Encryption:** To encrypt a plaintext, use the caesar_encrypt function:
   ```python
-  ciphertext = caesar_encrypt(plaintext, shift)
+  ciphertext = encrypt(plaintext, shift)
   ```
-  plaintext: The text you want to encrypt.
-  shift: The number of positions to shift each letter. A positive value for shifting to the right, and a negative value for shifting to the left.
-  Decryption:
+  - **plaintext:** The text you want to encrypt.
+  - **shift:** The number of positions to shift each letter. A positive value for shifting to the right, and a negative value for shifting to the left.
 
- - **Decryption:** To decrypt a ciphertext, use the caesar_decrypt function:
- ```python
- plaintext = caesar_decrypt(ciphertext, shift)
- ```
- ciphertext: The text you want to decrypt.
- shift: The number of positions the letters were shifted during encryption. Make sure to use the same shift value used during encryption.
+- **Decryption:** To decrypt a ciphertext, use the caesar_decrypt function:
+  ```python
+  plaintext = decrypt(ciphertext, shift)
+  ```
+  - **ciphertext:** The text you want to decrypt.
+  - **shift:** The number of positions the letters were shifted during encryption. Make sure to use the same shift value used during encryption.
